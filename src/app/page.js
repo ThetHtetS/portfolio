@@ -93,7 +93,7 @@ export default function Home() {
                     - Authentication featured includes user SignUp, Login, Logout, change password, forgot and reset password.
                       In this senerio, password reset link will be sent to user email.<br/><br/>
                     - Authorization has been implemented base on user role, such as normal user, editor, admin.
-                      normal user can't access to admin Dashboard.<br></br><br/>
+                      normal user can&apos;t access to admin Dashboard.<br></br><br/>
                     - User can upload profile picture, change user data incliding name, email, and password.<br/><br/>
                     - Also user can read, like, comment on blog post.<br/><br/>
                     -On admin side, CRUD operation of posts, category, manage users, check weekly views line chart,
