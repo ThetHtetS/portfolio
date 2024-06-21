@@ -58,7 +58,7 @@ export default function Home() {
               <AiFillFacebook />
               <AiFillLinkedin />
             </div> */}
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden  md:h-96 md:w-96 mt-8 mb-20">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden  md:h-96 md:w-96 mt-8 mb-10 md:mb-20">
               <Image src={deved} layout="fill" objectFit="cover" />
             </div>
           </div>
@@ -192,15 +192,27 @@ export default function Home() {
               <div> 
               <div id="footer">
                   <a href="https://github.com/ThetHtetS/EcommerceUsingReactJs.git" target="_blank" className="underline">
+                  https://github.com/ThetHtetS/EcommerceUsingReactJs.git
+                  </a>
+                </div>
+                <div>
+                  <a href="https://github.com/ThetHtetS/EcommerceApiUsingLaravel.git" target="_blank" className="underline">
+                     https://github.com/ThetHtetS/EcommerceApiUsingLaravel.git
+                  </a>
+                </div>
+              </div>
+              {/* <div id="footer"> 
+              <div>
+                  <a href="https://github.com/ThetHtetS/EcommerceUsingReactJs.git" target="_blank" className="underline">
                     https://github.com/ThetHtetS/EcommerceUsingReactJs.git
                   </a>
                 </div>
                 <div>
                   <a href="https://github.com/ThetHtetS/EcommerceApiUsingLaravel.git" target="_blank" className="underline">
-                  https://github.com/ThetHtetS/EcommerceApiUsingLaravel.git
+                    https://github.com/ThetHtetS/EcommerceApiUsingLaravel.git
                   </a>
                 </div>
-              </div>
+              </div> */}
           </div>
           <div className="bg-black text-white text-center py-4 "> SKILLS </div>
 
