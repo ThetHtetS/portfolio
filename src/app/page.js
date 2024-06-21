@@ -192,12 +192,12 @@ export default function Home() {
               <div> 
               <div id="footer">
                   <a href="https://github.com/ThetHtetS/EcommerceUsingReactJs.git" target="_blank" className="underline">
-                  https://github.com/ThetHtetS/EcommerceUsingReactJs.git
+                  EcommerceUsingReactJs.git
                   </a>
                 </div>
                 <div>
                   <a href="https://github.com/ThetHtetS/EcommerceApiUsingLaravel.git" target="_blank" className="underline">
-                     https://github.com/ThetHtetS/EcommerceApiUsingLaravel.git
+                     EcommerceApiUsingLaravel.git
                   </a>
                 </div>
               </div>
