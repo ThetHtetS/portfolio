@@ -1,0 +1,1 @@
+export const tabList = ["Frontend", "BackEnd", "Mobile",  "Cloud & DevOps"]
