@@ -22,7 +22,7 @@ function Skill() {
                   <div className="flex w-full justify-center gap-5 ">
                     {
                       tabList.map((el, index)=> ( 
-                      <h3 className={`text-md font-semibold text-white mb-6 cursor-pointer ${ page == index ? ' border-b-white border-b-2' : ''}`}
+                      <h3 key={index} className={`text-md font-semibold text-white mb-6 cursor-pointer ${ page == index ? ' border-b-white border-b-2' : ''}`}
                       onClick={()=> setPage(index)}
                      >
                       {el}

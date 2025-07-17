@@ -27,8 +27,8 @@ function Header({ darkMode , setDarkMode, scrollToRef, projectRef, skillRef, hom
                 />
               </li> */}
               {
-                navItems.map (el => (
-              <li onClick={()=> scrollToRef(el.to)}>
+                navItems.map ((el, index )=> (
+              <li key={index}  onClick={()=> scrollToRef(el.to)}>
                 <button 
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="#"

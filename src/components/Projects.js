@@ -42,12 +42,12 @@ function Projects({projectRef}) {
        </div>
        <div className='flex justify-start items-start gap-6' >
           {
-            projects.map(proj => (
-               <div className='w-[33%] rounded-xl overflow-hidden shadow-lg bg-white dark:bg-gray-700' > 
+            projects.map((proj, index) => (
+               <div key={index} className='w-[33%] rounded-xl overflow-hidden shadow-lg bg-white dark:bg-gray-700' > 
                   <img src={proj.image}/>
                   <div className='p-6'>
                     <h3 className="text-md font-semibold mb-2 text-gray-800 dark:text-white">
-                      {proj.title}
+                      {proj.title }
                     </h3>
                     <p className="text-gray-600 dark:text-gray-300 mb-4">
                       {proj.description}
