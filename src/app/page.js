@@ -1,4 +1,4 @@
-"use client"
+ "use client"
 import Image from "next/image";
 import Head from "next/head";
 import {
@@ -15,16 +15,7 @@ import Profile from "@/components/Profile";
 import Skill from "@/components/Skill";
 import Footer from "@/components/Footer";
 import Projects from "@/components/Projects";
-export const metadata = {
-  title: 'Thet Htet Soe',
-  description: 'Thet Htet Soe is a software engineer specializing in web and mobile development.',
-  icons: {
-    icon: '/favicon.ico',
-  },
-  verification: {
-    google: '3k7-OFM_AoqIS--hAmjpohuHZiFRBSVu-qROlfKPrig', // <- put your actual verification code here
-  },
-};
+
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
   const projectRef = useRef(null);
