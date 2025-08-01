@@ -29,7 +29,16 @@ export default function Home() {
     <div className= { darkMode ? "dark" : "bg-slate-100"}>
       <Head>
         <title>Thet Htet Soe</title>
-        <meta name="description" content="THS" />
+        {/* <meta name="description" content="THS" /> */}
+        <meta name="description" content="Thet Htet Soe is a software engineer specializing in web and mobile development." />
+      
+        <meta property="og:title" content="Thet Htet Soe" />
+        <meta property="og:description" content="Software engineer building modern web and mobile apps." />
+        <meta property="og:image" content="/og-image.jpg" />
+        <meta property="og:url" content="https://portfolio-czb5.vercel.app" />
+        <meta property="og:type" content="website" />
+         <link rel="canonical" href="https://portfolio-czb5.vercel.app" />
+         <meta name="google-site-verification" content="3k7-OFM_AoqIS--hAmjpohuHZiFRBSVu-qROlfKPrig" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="   dark:bg-gray-900">
